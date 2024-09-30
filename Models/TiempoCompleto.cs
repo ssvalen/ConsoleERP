@@ -15,7 +15,6 @@ namespace ConsoleERP.Clases
             SalarioMensual = salarioMensual;
         }
 
-        // Asegúrate de que el modificador de acceso sea 'public'
         public override decimal Salario()
         {
             return SalarioMensual;
