@@ -8,10 +8,9 @@ namespace ConsoleERP.Clases
         public decimal TarifaPorHora { get; set; }
         public int HorasTrabajadas { get; set; }
 
-        // Constructor sin parámetros (opcional si se requiere en otro contexto)
         public TiempoParcial() { }
 
-        // Constructor con parámetros
+
         public TiempoParcial(int empleadoId, string dpi, string nombre, string apellido, decimal tarifaPorHora, int horasTrabajadas)
             : base(empleadoId, dpi, nombre, apellido, TipoEmpleado.TiempoParcial)
         {
